@@ -13,3 +13,6 @@
 
 # Ignore vendor directory
 vendor/
+
+# Ignore dist binaries
+/dist/
