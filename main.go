@@ -66,7 +66,7 @@ func main() {
 
 		// apply mask
 		for i := 0; i < n; i++ {
-			buf[i] = buf[i] ^ mask[i%16]
+			buf[i] = buf[i] ^ mask[i%len(mask)]
 		}
 		bw.Write(buf[:n])
 	}
