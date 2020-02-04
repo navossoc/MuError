@@ -71,5 +71,4 @@ func main() {
 		bw.Write(buf[:n])
 	}
 	bw.Flush()
-
 }

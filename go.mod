@@ -1,9 +1,5 @@
-module MuError
+module github.com/navossoc/muerror
 
-go 1.12
+go 1.13
 
-require (
-	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
-	github.com/manifoldco/promptui v0.3.2
-	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c // indirect
-)
+require github.com/manifoldco/promptui v0.7.0
